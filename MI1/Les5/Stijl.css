@@ -1,0 +1,11 @@
+body
+{
+background-color: firebrick;
+}
+
+td, th, tr,p, label, legend
+{
+    
+    color: white;
+    border-color: white;
+}

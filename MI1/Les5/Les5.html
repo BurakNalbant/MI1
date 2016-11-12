@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="nl">
+    
+    <link  rel="stylesheet" href="Stijl.css">
+    
+	<head>
+		<meta charset="utf-8" >
+		<meta name="description" content="beschrijving van de webpagina" >
+		<meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+        <meta name="viewport" content="width=device-width, height=device-height" />
+		<title>Presentatie Burak</title>
+	</head>
+    
+	<body>
+
+        <center>
+        	<table border="2" bordercolor="white">
+			<tr>
+				<th colspan="3"> Openingstijden</th>
+			</tr>
+			<tr>
+
+				<td> dag van de week</td>
+				<td> overdag</td>
+				<td> 's avonds</td>
+
+			</tr>
+			<tr>
+				<td> maandag-vrijdag</td>
+				<td> 9.00-18.00</td>
+				<td> 19.00-22.00</td>
+			</tr>
+			<tr>
+				<td> zaterdag</td>
+				<td> 9.00-17.00</td>
+				<td rowspan="2"> gesloten</td>
+			</tr>
+			<tr>
+				<td> zondag</td>
+				<td> 10.00-17.00</td>
+			</tr>
+			</table>
+        </center>
+    
+        <fieldset>
+        	<legend>Persoonlijke voorkeuren</legend>
+            
+        	<br><label for="Kleur">Lievelingskleur</label>
+        	<input type="text" id="Kleur"                            name="Kleur" length="30" /> <br />
+                                                                                                                  
+        	<label>Favoriete seizoen</label>
+        	<input type= "checkbox" id="lente"><label                        for="lente">lente</label>
+        	<input type= "checkbox" id="zomer"><label                        for="zomer">zomer</label>
+            <input type= "checkbox" id="herfst"><label                         for="herfst">herfst</label>
+            <input type= "checkbox" id="winter"><label                         for="winter">winter</label>
+                                                                               <br/>             
+            <label>Favoriete maand van het jaar</label>
+            <select id="Maand">
+            <option disabled>--Kies je favoriete maand--</option>
+            <option>Januari</option>
+            <option>Februari</option>
+            <option>Maart</option>
+            <option>April</option>                 
+            <option>Mei</option>                 
+            <option>Juni</option>
+            <option>Juli</option>                 
+            <option>Augustus</option>                 
+            <option>September</option>                 
+            <option>Oktober</option>                 
+            <option>November</option>                 
+            <option>December</option>                 
+            </select>
+            <br/>
+            
+            <label>ik vind mezelf</label>
+            <input type= "checkbox" id="vriendelijk"><label                    for="vriendelijk">vriendelijk</label>
+        	<input type= "checkbox" id="sportief"><label                       for="sportief">sportief</label>
+            <input type= "checkbox" id="energiek"><label                       for="energiek">energiek</label>
+            <input type= "checkbox" id="leergierig"><label                     for="leergierig">leergierig</label>
+
+        	<br>
+            <label for="Als ik een avond vrij heb">Als ik een avond vrij heb, dan</label>
+            <br/>
+                         
+        	<input type="text" id="Als ik een avond vrij heb"              name="Als ik een avond vrij heb" length="250"                             width="250"/>
+            <br />
+        	
+        </fieldset>
+        <fieldset>
+            <legend>formulier</legend>
+            <input type="submit" value="verzenden" />
+        </fieldset> 
+</body>
+</html>
