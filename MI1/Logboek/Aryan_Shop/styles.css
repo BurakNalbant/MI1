@@ -1,0 +1,196 @@
+p
+{
+color:white;
+}
+
+body
+{
+   background-color: gray;
+   width: 860px;
+   margin: auto; /* Om onze pagina te centreren */
+   margin-top: 15px; /* Om niet aan de bovenkant van het browservenster te plakken. */
+   margin-bottom: 15px;    /* Idem voor de onderkant van het browservenster */
+}
+
+h1
+{
+font-size: 55px;
+color:white; 
+line-height: 80px;
+text-align:center;
+}
+
+
+
+#hoofding
+{
+   width: 855px;
+   height: 165px; 
+   margin-bottom: 10px;
+   border: 3px solid white; 
+   background-image: url("images/banner.jpg");
+   color: white;
+}
+
+#inhoud
+{
+  background-color: rgb(255, 124, 0);
+  border:3px solid white;
+  margin-left: 140px; 
+  margin-bottom: 10px; 
+  padding: 20px; 
+  color:white;
+}
+
+#werkbalk
+{
+  list-style-type: none;
+  padding-left: 0;
+  height: 25px;
+  border: 2px solid white;
+  background-color: rgb(255, 124, 0);
+}
+
+.wb_rechts
+{
+  float: right;
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-top: 3px;
+}
+.wb_links
+{
+  float: left; 
+  padding-left: 5px;
+  padding-right: 15px;
+  padding-top: 3px;
+}
+
+#werkbalk li
+{
+  color : white;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 0px;
+  font-family:'Trebuchet MS', Arial, 'Times new roman', Times, serif;
+  font-size:0.9em;
+}
+
+#werkbalk a
+{
+  color:white;
+  text-decoration: none;
+  font-weight:bold;
+  height: 25px;
+}
+
+#werkbalk li:hover a
+{
+  color: red;
+}
+
+#werkbalk li:active a
+{
+  color: blue;
+}
+
+#menu
+{
+   float: left;
+   width: 130px;
+   background-color: rgb(255, 124, 0);
+   border: 3px solid white;
+   color: white;
+}
+
+#menu1
+{
+   float: inherit;
+   width: 130px;
+   background-color: rgb(255, 124, 0);
+   border: 3px solid white;
+   color: white;
+   margin-top: 200px;
+
+}
+
+#menu ul
+{
+  list-style-type:none; 
+  padding:0px;
+  padding-left:15px;
+  margin:0px;
+  margin-bottom:10px;
+  color: white;
+}
+
+#menu h3
+{
+  margin-left:30px;
+}
+
+#menu a
+{
+  color:white;
+  text-decoration: none;
+  font-weight:bold;
+  height: 25px;
+  font-family:'Trebuchet MS', Arial, 'Times new roman', Times, serif;
+  font-size:0.9em;
+}
+
+#menu li:hover a
+{
+  color: red;
+}
+
+#menu li:active a
+{
+  color: blue;
+}
+
+#menu1 ul
+{
+  list-style-type:none; 
+  padding:0px;
+  padding-left:15px;
+  margin:0px;
+  margin-bottom:10px;
+  color: white;
+}
+
+#menu1 h3
+{
+  margin-left:30px;
+}
+
+#menu1 a
+{
+  color:white;
+  text-decoration: none;
+  font-weight:bold;
+  height: 25px;
+  font-family:'Trebuchet MS', Arial, 'Times new roman', Times, serif;
+  font-size:0.9em;
+}
+
+#menu1 li:hover a
+{
+  color: red;
+}
+
+#menu1 li:active a
+{
+  color: blue;
+}
+
+#voet
+{
+   
+   padding: 5px;
+   text-align: center;
+   background-color: rgb(255, 124, 0);
+   border: 3px solid white;
+   color: white;
+}
