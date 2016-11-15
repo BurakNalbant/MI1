@@ -36,10 +36,11 @@ text-align:center;
 {
   background-color: rgb(255, 124, 0);
   border:3px solid white;
-  margin-left: 140px; 
+  margin-left: 150px; 
   margin-bottom: 10px; 
   padding: 20px; 
   color:white;
+  margin-right: 150px;
 }
 
 #werkbalk
@@ -54,7 +55,7 @@ text-align:center;
 .wb_rechts
 {
   float: right;
-  padding-left: 20px;
+  padding-left: 15px;
   padding-right: 5px;
   padding-top: 3px;
 }
@@ -95,27 +96,51 @@ text-align:center;
   color: blue;
 }
 
-#menu
+#menuleft
 {
    float: left;
    width: 130px;
    background-color: rgb(255, 124, 0);
    border: 3px solid white;
    color: white;
+   clear: left;
 }
 
-#menu1
+#menuleft2
 {
-   float: inherit;
+   float: left;
+   clear: left;
    width: 130px;
    background-color: rgb(255, 124, 0);
    border: 3px solid white;
    color: white;
-   margin-top: 200px;
-
+   margin-top: 1em;
+   margin-bottom: 1em;
 }
 
-#menu ul
+#menuright
+{
+   float: right;
+   width: 130px;
+   background-color: rgb(255, 124, 0);
+   border: 3px solid white;
+   color: white;
+   clear: left;
+}
+
+#menuright2
+{
+   float: right;
+   clear: right;
+   width: 130px;
+   background-color: rgb(255, 124, 0);
+   border: 3px solid white;
+   color: white;
+   margin-top: 1em;
+   margin-bottom: 1em;
+}
+
+#menuleft ul
 {
   list-style-type:none; 
   padding:0px;
@@ -125,12 +150,12 @@ text-align:center;
   color: white;
 }
 
-#menu h3
+#menuleft h3
 {
   margin-left:30px;
 }
 
-#menu a
+#menuleft a
 {
   color:white;
   text-decoration: none;
@@ -140,17 +165,17 @@ text-align:center;
   font-size:0.9em;
 }
 
-#menu li:hover a
+#menuleft li:hover a
 {
   color: red;
 }
 
-#menu li:active a
+#menuleft li:active a
 {
   color: blue;
 }
 
-#menu1 ul
+#menuleft2 ul
 {
   list-style-type:none; 
   padding:0px;
@@ -160,12 +185,12 @@ text-align:center;
   color: white;
 }
 
-#menu1 h3
+#menuleft2 h3
 {
   margin-left:30px;
 }
 
-#menu1 a
+#menuleft2 a
 {
   color:white;
   text-decoration: none;
@@ -175,22 +200,97 @@ text-align:center;
   font-size:0.9em;
 }
 
-#menu1 li:hover a
+#menuleft2 li:hover a
 {
   color: red;
 }
 
-#menu1 li:active a
+#menuleft2 li:active a
+{
+  color: blue;
+}
+
+#menuright ul
+{
+  list-style-type:none; 
+  padding:0px;
+  padding-left:15px;
+  margin:0px;
+  margin-bottom:10px;
+  color: white;
+}
+
+#menuright h3
+{
+  margin-left:30px;
+}
+
+#menuright a
+{
+  color:white;
+  text-decoration: none;
+  font-weight:bold;
+  height: 25px;
+  font-family:'Trebuchet MS', Arial, 'Times new roman', Times, serif;
+  font-size:0.9em;
+}
+
+#menuright li:hover a
+{
+  color: red;
+}
+
+#menuright li:active a
+{
+  color: blue;
+}
+
+#menuright2 ul
+{
+  list-style-type:none; 
+  padding:0px;
+  padding-left:15px;
+  margin:0px;
+  margin-bottom:10px;
+  color: white;
+}
+
+#menuright2 h3
+{
+  text-align: center;
+}
+
+#menuright2 a
+{
+  color:white;
+  text-decoration: none;
+  font-weight:bold;
+  height: 25px;
+  font-family:'Trebuchet MS', Arial, 'Times new roman', Times, serif;
+  font-size:0.9em;
+}
+
+#menuright2 li:hover a
+{
+  color: red;
+}
+
+#menuright2 li:active a
 {
   color: blue;
 }
 
 #voet
 {
-   
    padding: 5px;
    text-align: center;
    background-color: rgb(255, 124, 0);
    border: 3px solid white;
    color: white;
+   clear:both;
+}
+
+td, th, tr, label
+{
+
 }
