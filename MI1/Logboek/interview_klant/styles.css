@@ -1,0 +1,79 @@
+p
+{
+color:white;
+}
+
+body
+{
+   
+   background-image:url("img/hfd.jpg");
+   width: 860px;
+   margin: auto; /* Om onze pagina te centreren */
+   margin-top: 15px; /* Om niet aan de bovenkant van het browservenster te plakken. */
+   margin-bottom: 15px;    /* Idem voor de onderkant van het browservenster */
+}
+
+h1
+{
+font-size: 55px;
+color:white; 
+line-height: 80px;
+text-align:center;
+}
+
+
+
+#hoofding
+{
+   width: 855px;
+   height: 165px; 
+   margin-bottom: 10px;
+   border: 3px solid white; 
+   box-shadow: 2px 2px 30px white;
+   background-color: darkblue;
+   color: white;
+ }
+
+
+footer
+{
+   padding: 0.3em;
+   text-align: center;
+   background-color: #8A2BE2;
+   border: 3px solid white;
+   color: white;
+   clear:both;
+   box-shadow: 2px 2px 30px white;
+   border-radius: 30px;
+}
+
+.inhoud 
+{
+
+    width: 570px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    background-color: #8A2BE2;
+    border-radius: 30px;
+    box-shadow: 2px 2px 25px white;
+    border: 3px solid white;
+}
+.inhoud h3
+{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.inhoud p 
+{
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.inhoud table
+{
+  margin-bottom: 1em;
+}
+
