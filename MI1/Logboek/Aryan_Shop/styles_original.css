@@ -13,86 +13,6 @@ body
    margin-bottom: 15px;    /* Idem voor de onderkant van het browservenster */
 }
 
-
-
-.home a:focus
-{
-    background-color: rgba(75, 0, 0, 0.9);
-    color: white;
-}
-
-#Bugs
-{
-  margin-left: 2.5em;
-  height: 100px;
-}
-
-#date
-{
-  margin-left: 2.5em;
-}
-
-#nom
-{
-  margin-left: 2.5em;
-}
-
-#email
-{
-  margin-left: 2.5em;
-}
-           
-
-.rond {
-       border-radius: 20px;
-       margin-right: auto;
-       margin-left: auto;
-       display: block;
-       width: 180px;
-     }
-
-
-
-.FR 
-{
-        float: left;
-        position: relative;
-        text-decoration: none;
-        background: rgba(0, 0, 9, 0.5);
-        border-radius: 30px;
-        padding: 1% 1% 0.1% 1%;
-        margin-left: 27%;
-        margin-top: 25%;
-        box-shadow: -10px -10px 50px 10px rgba(0, 0, 0, 0.7) inset;
-}
-
-
-
-.NL {
-        float: right;
-        text-decoration: none;
-        position: relative;
-        background: rgba(0, 0, 9, 0.5);
-        border-radius: 30px;
-        padding: 1% 1% 0.1% 1%;
-        margin-right: 27%;
-        margin-top: 25%;
-        box-shadow: -10px -10px 50px 10px rgba(0, 0, 0, 0.7) inset;
-    }
-
-.FR:hover 
-{
-  background-color: rgba(75, 0, 0, 0.9);
-}
-
-.NL:hover 
-{
-  background-color: rgba(75, 0, 0, 0.9);
-}
-
-
-
-
 h1
 {
 font-size: 55px;
@@ -110,9 +30,9 @@ text-align:center;
    margin-bottom: 10px;
    border: 3px solid white; 
    box-shadow: 2px 2px 30px white;
-   background-image: url("images/fond.png");
+   background-image: url("images/fond1.jpg");
    color: white;
- }
+}
 
 label, legend
 {
@@ -121,9 +41,9 @@ label, legend
   color: white;
 }
 
-#Catégorie, #btn
+#Catégorie, #btn, #Bugs
 {
-  margin-left: 2.5em;
+  margin-left: 2em;
 }
 #btn
 {
@@ -140,13 +60,14 @@ nav ul
   background-color: #8A2BE2;
   box-shadow: 2px 2px 30px white;
   display: block;
+  border-radius: 30px;
   width: auto;
 }
 
 .wb_rechts
 {
   float: right;
-  padding-left: 5px;
+  padding-left: 15px;
   padding-right: 5px;
   padding-top: 3px;
 }
@@ -154,7 +75,7 @@ nav ul
 {
   float: left; 
   padding-left: 5px;
-  padding-right: 10px;
+  padding-right: 15px;
   padding-top: 3px;
 }
 
@@ -162,6 +83,7 @@ nav li
 {
   color : white;
   height: 25px;
+
   text-align: center;
   padding-top: 0px;
   font-family:'Trebuchet MS', Arial, 'Times new roman', Times, serif;
@@ -186,80 +108,71 @@ nav li:active a
   color: blue;
 }
 
-aside
+#menuleft
 {
    float: left;
    width: 130px;
    background-color: #8A2BE2;
    border: 3px solid white;
    color: white;
-   box-shadow: 2px 2px 30px white;
-   border-radius: 0px 30px 0px 30px;
-   margin-top: 1px;
    clear: left;
-   margin-bottom: 0.5em;
+   box-shadow: 2px 2px 30px white;
+   border-radius: 30px;
 }
 
-
-aside ul
+#menuleft2
 {
-  list-style-type:none; 
-  padding:0px;
-  padding-left: 1em;
-  color: white;
+   float: left;
+   clear: left;
+   width: 130px;
+   background-color: #8A2BE2;
+   border: 3px solid white;
+   color: white;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   box-shadow: 2px 2px 30px white;
+   border-radius: 30px;
 }
 
-aside h3
-{
-  text-align: center;
-}
-
-aside a
-{
-  color:white;
-  text-decoration: none;
-  font-weight:bold;
-  font-family:'Trebuchet MS', Arial, 'Times new roman', Times, serif;
-  font-size:0.9em;
-}
-
-aside li:hover a
-{
-  color: black;
-}
-
-aside li:active a
-{
-  color: blue;
-}
-
-#twee
+#menuright
 {
    float: right;
    width: 130px;
    background-color: #8A2BE2;
    border: 3px solid white;
    color: white;
-   clear:right;
+   clear: left;
    box-shadow: 2px 2px 30px white;
-   border-radius: 30px 0 30px 0px;
-   margin-top: 1px;
+   border-radius: 30px;
 }
 
+#menuright2
+{
+   float: right;
+   clear: right;
+   width: 130px;
+   background-color: #8A2BE2;
+   border: 3px solid white;
+   color: white;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   box-shadow: 2px 2px 30px white;
+   border-radius: 30px;
+}
 
-#twee ul
+#menuleft ul
 {
   list-style-type:none; 
-  padding-left: 0.5em;
+  padding-left:15px;
   color: white;
 }
 
-#twee h3
+#menuleft h3
 {
   text-align: center;
 }
 
-#twee a
+#menuleft a
 {
   color:white;
   text-decoration: none;
@@ -268,17 +181,115 @@ aside li:active a
   font-size:0.9em;
 }
 
-#twee li:hover a
+#menuleft li:hover a
 {
   color: black;
 }
 
-#twee li:active a
+#menuleft li:active a
 {
   color: blue;
 }
 
-footer
+#menuleft2 ul
+{
+  list-style-type:none; 
+  padding-left:15px;
+  color: white;
+}
+
+#menuleft2 h3
+{
+  text-align: center;
+}
+
+#menuleft2 a
+{
+  color:white;
+  text-decoration: none;
+  font-weight:bold;
+  font-family:'Trebuchet MS', Arial, 'Times new roman', Times, serif;
+  font-size:0.9em;
+}
+
+#menuleft2 li:hover a
+{
+  color: black;
+}
+
+#menuleft2 li:active a
+{
+  color: blue;
+}
+
+#menuright ul
+{
+  list-style-type:none; 
+  padding:0px;
+  text-align: center;
+  color: white;
+}
+
+#menuright h3
+{
+  text-align: center;
+}
+
+#menuright a
+{
+  color:white;
+  text-decoration: none;
+  font-weight:bold;
+  font-family:'Trebuchet MS', Arial, 'Times new roman', Times, serif;
+  font-size:0.9em;
+}
+
+#menuright li:hover a
+{
+  color: black;
+}
+
+#menuright li:active a
+{
+  color: blue;
+}
+
+#menuright2 ul
+{
+  list-style-type:none; 
+  padding:0px;
+  padding-left:15px;
+  margin:0px;
+  margin-bottom:10px;
+  color: white;
+}
+
+#menuright2 h3
+{
+  text-align: center;
+}
+
+#menuright2 table
+{
+  color:white;
+  text-decoration: none;
+  font-weight:bold;
+  height: 25px;
+  font-family:'Trebuchet MS', Arial, 'Times new roman', Times, serif;
+  font-size:0.9em;
+}
+  
+#menuright2 li:hover a
+{
+  color: black;
+}
+
+#menuright2 li:active a
+{
+  color: blue;
+}
+
+#voet
 {
    padding: 0.3em;
    text-align: center;
@@ -292,7 +303,6 @@ footer
 
 .inhoud 
 {
-
     width: 570px;
     margin: auto;
     margin-top: 10px;
@@ -302,8 +312,6 @@ footer
     border-radius: 30px;
     box-shadow: 2px 2px 25px white;
     border: 3px solid white;
-
-
 }
 .inhoud h3
 {
@@ -359,139 +367,6 @@ article
   {
    width: auto;
   }
-   .FR 
-   {
-       padding: 0.1px 0.1px 0.1px 0.1px;
-        float: none;
-        margin-right: auto;
-        margin-left: auto;
-        display: block;
-   }
-    
-    .NL 
-    {
-        padding: 0.1px 0.1px 0.1px 0.1px;
-        float: none;
-        margin-right: auto;
-        margin-left: auto;
-        display: block;
-    }
-    
-    .rond 
-    {
-      display: none;
-    }
-
-    .taal 
-    {
-         font-family: sans-serif;
-         font-size  : 200%;
-         color: whitesmoke;
-         text-align: center;
-         display: block;
-         margin-top: 10%;
-    }
-
-    #hoofding
-    {
-        width: auto;
-    } 
-
-    aside.top4
-
-    {
-      display: none;
-    }
-
-    aside.promo
-
-    {
-      display: none;
-    }
-
-    article
-    {
-        width: auto;
-        margin-bottom: 15px;
-        margin-left: 0.5em;
-    }
-
-
-    #twee
-    {
-        width: auto;
-        margin-bottom: 25px;
-        float: none;
-        text-align: center;
-    }
-    
-    aside
-    {
-        width: auto;
-        margin-bottom: 15px;
-        float: none;
-        text-align: center;
-        text-transform: capitalize;
-        font-family:'Trebuchet MS', Arial, 'Times new roman', Times, serif;
-        font-size:1.5em;
-    }
-
-    #twee p,h3
-    {
-        text-align: center;
-        text-transform: capitalize;
-        font-family:'Trebuchet MS', Arial, 'Times new roman', Times, serif;
-        font-size:1.5em;
-    }
-
-    section.inhoud
-    {
-       width:auto;
-    }
-
-    section.inhoud p img
-
-    {
-      width: 60%;
-    }
-
-    section.inhoud p 
-    {
-      font-size: 3em;
-      margin-left: 1em;
-    }
-
-    section.inhoud table 
-    {
-      font-size: 1.3em;
-      margin-right: 0.5em;
-      
-    }
-    
-
-        nav a, li, ul
-    {
-      font-size: 1.1em;
-
-    }
-
-    img
-    {
-      width: 80%;
-    }
-
-    .wb_rechts
-    {
-      float: left;
-    }
-}
-
-    @media all and (max-width: 480px)
-{
-    body
-  {
-   width: auto;
-  }
     #hoofding
     {
         width: auto;
@@ -506,36 +381,56 @@ article
     }
 
 
-    #twee
+    #menuright
     {
         width: auto;
         margin-bottom: 25px;
-        float: none;
-        text-align: center;
+        float: inherit;
     }
     
-    aside
+    
+    #menuright2
     {
         width: auto;
         margin-bottom: 15px;
-        float: none;
+        float: inherit;
+    }
+
+    #menuleft
+    {
+        width: auto;
+        margin-bottom: 15px;
+        list-style: none;
+        float: inherit;
+    }
+
+    #menuleft
+
+    {
+      text-align: center;
+      text-transform: capitalize;
+      font-family:'Trebuchet MS', Arial, 'Times new roman', Times, serif;
+      font-size:1.2em;
+    }
+
+    #menuleft2
+    {
+        width: auto;
+        margin-bottom: 15px;
+        float: inherit;
         text-align: center;
         text-transform: capitalize;
         font-family:'Trebuchet MS', Arial, 'Times new roman', Times, serif;
-        font-size:1em;
+        font-size:1.2em;
     }
 
-    aside ul, li, a
-    {
-      font-size: 1.2em;
-    }
-
-    #twee p,h3
+    #menuright p,h3
     {
         text-align: center;
         text-transform: capitalize;
         font-family:'Trebuchet MS', Arial, 'Times new roman', Times, serif;
         font-size:1.5em;
+
     }
 
     section.inhoud
@@ -559,17 +454,10 @@ article
     {
       font-size: 1.3em;
       margin-right: 0.5em;
-      
     }
-    
-    nav a, li, ul
+    nav
     {
-      font-size: 0.8em;
-    }
-
-    section
-    {
-      position: relative;
+      width: auto;
     }
 
     img
@@ -579,17 +467,6 @@ article
 
     .wb_rechts
     {
-      float: right;
+      display: none;
     }
 }
-
-    @media all and (max-resolution: 401dpi) and (min-width: 400px)
-{
-         nav a, li, ul
-    {
-      font-size: 0.95em;
-    }
-}
-
-
-
